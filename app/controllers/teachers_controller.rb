@@ -9,6 +9,5 @@ class TeachersController < ApplicationController
   
   def index
     redirect_to '/students/new'
-    'abc'
   end
 end

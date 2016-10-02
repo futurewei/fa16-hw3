@@ -8,5 +8,4 @@ Rails.application.routes.draw do
    get '/students/new', to: 'students#new'
   post '/students', to: 'students#create'
 
-
 end
